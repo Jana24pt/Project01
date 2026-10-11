@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42</title>
+</head>
+<body>
+
+    <header id="home">
+        <h1>My Linux Notes</h1>
+        <p>Some notes from my Linux practice.</p>
+        <img src="../ex02/assets/profile.jpg" alt="My profile photo">
+    </header>
+
+    <nav>
+        <a href="#commands">Commands</a>
+        <a href="#study">Study Plan</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="commands">
+            <article>
+                <h2>Basic Linux Commands</h2>
+
+                <p>
+                    I am learning Linux because I want to understand
+                    how computers and servers work.
+                    <strong>Practice is important</strong>, so I use
+                    the terminal every day.
+                </p>
+
+                <hr>
+
+                <h3>Commands I Use</h3>
+
+                <ul>
+                    <li>pwd - Show the current directory.</li>
+                    <li>ls - List files and folders.</li>
+                    <li>cd - Change the directory.</li>
+                    <li>mkdir - Create a new folder.</li>
+                </ul>
+
+                <p>
+                    I try each command and write down what I learn.
+                    <br>
+                    <em>Small steps make a difference.</em>
+                </p>
+            </article>
+        </section>
+
+        <section id="study">
+            <h2>My Study Plan</h2>
+
+            <ol>
+                <li>Open the terminal.</li>
+                <li>Practice commands.
+                    <ul>
+                        <li>Create files and folders.</li>
+                        <li>Move between directories.</li>
+                    </ul>
+                </li>
+                <li>Review my notes.</li>
+            </ol>
+
+            <table>
+                <caption>My Weekly Linux Plan</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Topic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Basic commands</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Files and folders</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Permissions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h2>Useful Link</h2>
+            <p>
+                <a href="https://github.com/Jana24pt"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    My GitHub
+                </a>
+            </p>
+        </aside>
+
+        <section>
+            <h2>Join My Study Group</h2>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       required minlength="2">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                       required minlength="8">
+
+                <p>What do you want to learn?</p>
+
+                <input type="radio" id="linux" name="topic"
+                       value="linux" required>
+                <label for="linux">Linux</label>
+
+                <input type="radio" id="security" name="topic"
+                       value="security">
+                <label for="security">Web Security</label>
+
+                <br>
+
+                <label for="agreement">I agree to join the group.</label>
+                <input type="checkbox" id="agreement"
+                       name="agreement" required>
+
+                <br><br>
+
+                <label for="level">My Level:</label>
+                <select id="level" name="level" required>
+                    <option value="">Choose a level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                          minlength="5"></textarea>
+
+                <button type="submit">Join</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>Contact me by email:</p>
+        <a href="mailto:jana.cyber.tech@gmail.com">My Email</a>
+        <p>My Linux Notes - 2026</p>
+    </footer>
+
+</body>
+</html>
